@@ -9,14 +9,14 @@ var:
   tags_path : /tags.html
   rss_path: /atom.xml
 
-production_url : http://username.github.com # or your custom domain name
-title : Jekyll Boostrap
+production_url : http://livid.v2ex.com # or your custom domain name
+title : Livid
 
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedbuder : feedname
+  name : Livid
+  email : livid@v2ex.com
+  github : livid
+  twitter : livid
+  feedbuder : v2ex
 
 exclude: .rbenv-version

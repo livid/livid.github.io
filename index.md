@@ -1,8 +1,12 @@
 ---
 layout: page
-title: Hello from Jekyll-Bootstrap
-header: This is Jekyll-Bootstrap
+title: Livid
+header: My writings here
 ---
+
+中文支持如何呢？
+
+## So?
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/jekyll-quick-start.html)
 
