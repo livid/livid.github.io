@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Say Hello to Jekyll
-tags: Jekyll
-category: Essays
+tags: jekyll, byword
+category: essays
 ---
 
 找到 [Jekyll](https://github.com/mojombo/jekyll) 这个工具对我而言是种惊喜。
