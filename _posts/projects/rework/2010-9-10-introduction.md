@@ -2,7 +2,7 @@
 layout: post
 title: Introduction
 categories: rework
-tags: rework
+tags: Rework
 ---
 
 我们有一些关于如何开创和经营一项事业，以及其怎样成长（或者停滞）的新理念。

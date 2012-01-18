@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Say Hello to Jekyll
-tags: jekyll, byword
+tags: Jekyll, Byword
 category: essays
 ---
 
