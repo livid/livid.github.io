@@ -5,6 +5,12 @@ header: My Works
 group: navigation
 ---
 
+你好，我的名字是刘昕，而 Livid 是我从 2000 年开始在网上使用的 ID，也是我在 [Twitter](https://twitter.com/livid)，[GitHub](http://github.com/livid)，[微博](http://weibo.com/livid) 和 [V2EX](http://www.v2ex.com/member/Livid) 的用户名。
+
+我目前的工作是制作工具，那些能够帮助人们更快捷地做完事情的工具。我相信好的工具应该使用起来也是让人愉快的。
+
+在这个页面上，是我的一些作品。
+
 ### [V2EX](http://www.v2ex.com/)
 
 V2EX 是创意工作者的社区，比如程序员，设计师，创业者。这只是一个单纯的 idea，这个世界上每天有很多人在靠创意生活，他们的绝大部分时间都在创作及思考和创作有关的一切。而 V2EX 为这样的人提供了一个交流的地方。

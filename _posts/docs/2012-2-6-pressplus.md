@@ -92,6 +92,13 @@ Issue 建立之后，默认是「未发布状态」。
 * [Google Chrome](http://chrome.google.com/)
 * [Apple Safari](http://www.apple.com/safari)
 
+### Markdown 相关资料和下载
+
+* [语法参考文档](http://daringfireball.net/projects/markdown/syntax)
+* [Mou 0.6.6 for Snow Leopard](http://itimes.iweek.ly/static/dl/Mou_0.6.6.zip)
+* [Mou 0.7 or later for Lion](http://www.mouapp.com/)
+* [MarkdownMail for iPhone and iPad](http://itunes.apple.com/cn/app/markdownmail-send-html-email/id390094543)
+
 ### 技术支持联系
 
 * [讨论区](http://www.v2ex.com/go/asteroid)
