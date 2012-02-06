@@ -81,3 +81,17 @@ Issue 建立之后，默认是「未发布状态」。
 因此你可以将文本类型页面引用到的图片存在此图片库，然后在正文中通过 Markdown 语法或 HTML 的 img 标签引用。所引用的图片尺寸推荐宽度大于 600 小于 1000 像素。当宽度超过 600 像素时，图片在显示时会等比率缩小以适配 290 的屏幕物理像素（左右各 15 像素的留白），而这个尺寸是由模板文件中的 max-width CSS 属性来控制，因此可以自由调整。
 
 该图片库支持关键字搜索。因此你可以在图片入库时添加一些简短的文本说明以便之后的搜索。
+
+## 其他使用事项
+
+### 浏览器
+
+请使用尽可能新的浏览器来使用这套系统：
+
+* [Mozilla Firefox](http://www.mozilla.org/)
+* [Google Chrome](http://chrome.google.com/)
+* [Apple Safari](http://www.apple.com/safari)
+
+### 技术支持联系
+
+* [讨论区](http://www.v2ex.com/go/asteroid)
