@@ -22,14 +22,3 @@ V2EX 使用节点，也就是 node 这一概念来组织内容。每一个话题
 为了保持 V2EX 上的信息始终健康流动，有一些规则从第一天起即确立：V2EX 上不会有任何无营养的回复，比如「顶」和「沙发」；我们尊重原创，V2EX 上不会有任何关于如何获得盗版内容的讨论；V2EX 不会全文转载任何文章，如果我们发现了好东西，我们会以链接方式分享。及重要的：**待人友善，对话是为了解决实际问题**。
 
 最后，感谢 [Claude Shannon](http://en.wikipedia.org/wiki/Claude_Shannon) 和 [Kevin Kelly](http://kk.org/)，他们关于信息的信息给了我很多灵感。
-
-### [V2EX Workspace](http://workspace.v2ex.com/)
-
-V2EX Workspace 是一个面向小团队的信息分享和工作协同的平台。
-
-### [BF2Stats.app](http://www.olivida.com/bc2stats)
-
-在 iPhone 上查看自己和好友在 BFBC2 里的对战成绩。
-
-### Press+
-
