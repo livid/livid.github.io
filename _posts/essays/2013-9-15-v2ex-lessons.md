@@ -84,3 +84,7 @@ Instagram 的技术团队在 [Scaling Instagram](http://techcrunch.com/2012/04/1
 Puppet 是一个得到了 Google，Cisco，VMware 等公司投资的创业项目，其商业模式就是提供 Enterprise 版本的付费支持，根据你部署机器数量，每台机器大概每年 $99 到 $159 之间。
 
 和 Puppet 类似的项目还有 [Chef](http://www.opscode.com/chef/) 和 [Salt](http://saltstack.com/)，选择誰，不选择誰，很容易就变成没有结论的宗教问题。这个时候其实可以到 Google Trends 里对比一下搜索量，或是看看他们各自的 Customer 名单，然后你就会有结论。
+
+* * *
+
+本文讨论地址 › [http://www.v2ex.com/t/82642](http://www.v2ex.com/t/82642)
