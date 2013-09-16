@@ -25,7 +25,7 @@ tags: V2EX
 
 我不希望 V2EX 成为无聊经济的一部分，我希望这个网站上的绝大部分信息能够有用。从专业领域来说，我希望 V2EX 上的信息会是关于软件和硬件的新进展。同时因为这里聚集了一群能够把事情搞定的人，所以围绕这个人群的信息服务，比如招聘和二手交易，也是有意义的。
 
-### MySQL
+### MySQL or Redis
 
 如果下次要开始一个像 V2EX 这样的网站项目，我会尽量从技术选择中把 MySQL 去掉。
 
@@ -77,7 +77,9 @@ Instagram 的技术团队在 [Scaling Instagram](http://techcrunch.com/2012/04/1
 
 这样的工具的最大好处，就是让你可以在 Mac OS X 上获得一个轻量级的 Linux 环境，你可以将这台 Linux 虚拟机配置得尽可能接近你的实际 production 环境。从而在每天的开发和测试中，尽量避免因为本地 OS X 和线上 Linux 环境不同而造成的 bug。
 
-并且 Vagrant 还支持在虚拟机每次启动时执行一个 Puppet Manifest。这样你就可以在这个 Puppet Manifest 中进一步描述你需要的软件包 / 服务 / 目录 / 文件，从而省掉很多绝无必要的敲键盘时间。
+Vagrant 可以使用几种不同的技术来启动虚拟机，包括 VirtualBox，VMware，KVM，AWS 和 LXC。而其中 [VirtualBox](https://www.virtualbox.org/) 是默认的方式，也是免费的方式。而如果要使用 VMware 来作为后端的话，除了需要购买 VMware Workstation 或 Fusion 外，还需要从 Vagrant 开发者那里购买一个售价为 $79 的闭源插件。我买过这个插件，但是在实际用起来的时候遇到过很多问题，比如在网络方面和 VirtualBox 就不太相同，因此 Vagrantfile 其实没法在两个插件间完全无问题的复用。这也是一直以来很多人在争论的一个问题：开源软件和闭源软件究竟哪个质量更好？而从 Vagrant 的这个例子来看，因为免费且开源，从而有更多用户的 VirtualBox 插件，在质量上，是大大胜过用户要少得多的 VMware 插件。
+
+Vagrant 还支持的另外一个有用特性，就在虚拟机每次启动时执行一个 Puppet Manifest。这样你就可以在这个 Puppet Manifest 中进一步描述你需要的软件包 / 服务 / 目录 / 文件，从而省掉很多绝无必要的敲键盘时间。
 
 我在过去一年的大量项目中使用了 [Puppet](http://www.puppetlabs.com/)。Puppet 是一个复杂的系统，其核心是一门描述机器状态的语言。你可以用这门语言描述你想要一台机器上应该有的软件包、服务、目录、文件和用户等资源的状态，然后 Puppet 在每次运行时，就会检查这台机器的实际状态和你的描述之间的区别，如果存在不同，Puppet 就会进行一些必要的更改，以保证机器状态符合你的描述。
 
