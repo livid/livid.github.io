@@ -1,8 +1,7 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
-auto: true
-pygments: true
+permalink: /:categories/:year/:month/:day/:title
+highlighter: true
 markdown: rdiscount
 var:
   archive_path: /archive.html
@@ -18,6 +17,6 @@ author :
   email : livid@v2ex.com
   github : livid
   twitter : livid
-  feedbuder : v2ex
+  feedburner : v2ex
 
-exclude: .rbenv-version
+exclude: ['.rbenv-version']
