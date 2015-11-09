@@ -2,7 +2,7 @@
 html {
   background-color: #fff;
   background-image: url("//cdn.v2ex.co/assets/bgs/abovetheclouds.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: 50% 0;
   font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
 }
