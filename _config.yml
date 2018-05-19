@@ -6,16 +6,18 @@ description: > # this means to ignore newlines until "twitter_username:"
 
 # social links
 twitter_username: livid
-github_username:  livid
+# github_username:  livid
 rss: rss
-# dribbble_username: jekyll
+# dribbble_username: livid
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jekyll
+# instagram_username: livid
 # linkedin_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
 # googleplus_username: +jekyll
+
+google_analytics: UA-11940834-17
 
 # Mastodon instances
 # mastodon:
