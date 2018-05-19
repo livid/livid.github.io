@@ -1,9 +1,9 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
+title: Livid
+header: Thoughts, Writings and Dreams
 ---
+
+这是 Livid 的个人网站的最新版本，使用 [Jekyll](https://github.com/jekyll/jekyll) 及修改之后的 [Minima](https://github.com/jekyll/minima) 主题搭建。
+
+创作是一件开心的事情，沉浸只是因为纯粹的灵感。我希望自己的生命能够时常充满灵感，而文字就是这些愉快时光曾经存在过的证明。

@@ -252,3 +252,12 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+hr {
+  background-color: #eee;
+  border: 0 none;
+  color: #eee;
+  height: 2px;
+  padding: 0;
+  margin-bottom: $spacing-unit / 2;
+}
