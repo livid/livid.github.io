@@ -47,7 +47,7 @@ Baldur's Gate 刚出来时，我还在上初中。后来 Baldur's Gate 2 出来�
 
 然后，用 Blender 做一只栩栩如生的 Synodontis：
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HOAyJJb0gqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/HOAyJJb0gqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 这件事情能有什么意义呢？这件事情的意义就在于我需要将自己的生活优化到我能够用一天当中最好的那部分精力去在尽可能短的时间内完成这个目标。
 
