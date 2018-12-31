@@ -15,7 +15,7 @@ docker pull jekyll/jekyll
 然后切换到你的 Jekyll 网站所在目录，执行这条命令启动 Jekyll：
 
 ```bash
-docker run --volume="$PWD:/srv/jekyll" \
+docker run --mount type=bind,source=$(pwd),target=/srv/jekyll \
 -p 4000:4000 --name blog -it jekyll/jekyll \
 jekyll serve
 ```
@@ -25,5 +25,9 @@ jekyll serve
 因为我们给这个 Container 赋予了名字 blog，所以之后如果再次需要这个 Container 的话，只需要这样就可以启动：
 
 ```bash
-docker start blog
+docker start -i blog
 ```
+
+---
+
+参考文档 [https://github.com/envygeeks/jekyll-docker/blob/master/README.md](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)

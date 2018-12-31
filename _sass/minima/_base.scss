@@ -254,11 +254,12 @@ table {
 }
 
 hr {
-  background-color: #eee;
+  background-color: #ccc;
   border: 0 none;
-  color: #eee;
-  height: 2px;
+  color: #ccc;
+  height: 1px;
   padding: 0;
+  margin-bottom: $spacing-unit / 2;
 }
 
 iframe {
