@@ -25,5 +25,9 @@ jekyll serve
 因为我们给这个 Container 赋予了名字 blog，所以之后如果再次需要这个 Container 的话，只需要这样就可以启动：
 
 ```bash
-docker start blog
+docker start -i blog
 ```
+
+---
+
+参考文档 [https://github.com/envygeeks/jekyll-docker/blob/master/README.md](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
