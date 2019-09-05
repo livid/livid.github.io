@@ -6,7 +6,7 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  background-color: $header-color;
+  background-color: var(--site-header-background-color);
   background-image: url("/assets/memphis-colorful.png");
 }
 
@@ -20,7 +20,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: var(--site-title-color);
   }
 }
 
@@ -40,7 +40,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: var(--text-color);
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -53,8 +53,8 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
     border-radius: 5px;
     text-align: right;
 
@@ -304,4 +304,10 @@
   height:100%;
   width:100%;
   position:absolute;
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-header {
+    background-image: url("/assets/stardust.png");
+  }
 }
