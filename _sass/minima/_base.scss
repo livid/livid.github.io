@@ -254,9 +254,9 @@ table {
 }
 
 hr {
-  background-color: #ccc;
+  background-color: var(--hr-color);
   border: 0 none;
-  color: #ccc;
+  color: var(--hr-color);
   height: 1px;
   padding: 0;
   margin-bottom: $spacing-unit / 2;
