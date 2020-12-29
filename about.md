@@ -4,10 +4,10 @@ title: About
 group: navigation
 ---
 
-My name is Xin Liu, but I usually go by @Livid, it is my handle on the Internet since the early 2000s.
+My name is Xin Liu, and I usually go by @Livid in various online spaces. It is my handle on the Internet since the early 2000s. Axisymmetric is the reason I like that word.
 
-For the most part of my life so far, I am a programmer. I make websites. One of the bigger among all I created is [V2EX.com](https://www.v2ex.com/).
+For most of my life so far, I am a designer and programmer. I make websites. One of the bigger among all I created is V2EX.com.
 
-It is a community of developers and designers. I want to make it a great place for discussing technical topics -- those whys and hows when people are building something.
+It is an online community of developers and designers. Since the inception, my goal is to make a great place for discussing technical details -- those whys and hows when people are building something.
 
-I live in Southern California. I do check my [Twitter](https://twitter.com/livid), so if you want to get in touch, please send me a DM via Twitter.
+If you want to get in touch, DM me via [Twitter](https://twitter.com/Livid).
