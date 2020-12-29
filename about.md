@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+group: navigation
 ---
 
 My name is Xin Liu, but I usually go by @Livid, it is my handle on the Internet since the early 2000s.
