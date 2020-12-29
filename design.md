@@ -89,7 +89,7 @@ V2EX has a [virtual currency system](https://www.v2ex.com/help/currency). Its ma
 
 ![](/images/v2ex-virtual-currency.png)
 
-The two versions of 404 Not Found, and a homage to Mac OS X's multilanguage kernel panic.
+The two versions of [404 Not Found](https://www.v2ex.com/notfound), and a homage to Mac OS X's multilanguage kernel panic.
 
 ![](/images/v2ex-404.png)
 
