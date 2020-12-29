@@ -88,3 +88,9 @@ Privacy settings.
 V2EX has a [virtual currency system](https://www.v2ex.com/help/currency). Its main goal is to promote meaningful interactions between users.
 
 ![](/images/v2ex-virtual-currency.png)
+
+The two versions of 404 Not Found, and a homage to Mac OS X's multilanguage kernel panic.
+
+![](/images/v2ex-404.png)
+
+![](/images/v2ex-404-dark.png)
