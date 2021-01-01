@@ -29,7 +29,7 @@ Of course it has a dark mode.
 
 V2EX organizes topics into Nodes. Each node has an icon. You can add nodes to personal favorites and show them all on one page. This page also supports drag-and-drop to adjust the order of nodes.
 
-My wife [Yi Han](https://www.yihandesign.com/icon-design) designed some icons for the nodes.
+My wife [Yi Han](https://www.yihandesign.com/icons-design) designed some icons for the nodes.
 
 ![](/images/v2ex-my-nodes.png)
 
