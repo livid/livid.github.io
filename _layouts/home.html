@@ -11,7 +11,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <!--<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
-    <h2 class="post-list-heading"><img src="/assets/posts.png" border="0" width="24" alt="Posts" /></h2>
+    <h2 class="post-list-heading"><img src="/assets/posts.png" border="0" width="20" alt="Posts" class="posts-icon" /></h2>
 
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -30,7 +30,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe"><img src="/assets/subscribe.png" border="0" width="24" alt="Subscribe" style="vertical-align: text-top;" /> Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe"><img src="/assets/subscribe.png" border="0" width="20" alt="Subscribe" style="vertical-align: text-bottom;" class="subscribe-icon" /> Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>

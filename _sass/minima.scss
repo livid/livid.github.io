@@ -77,6 +77,10 @@ $on-laptop:        800px !default;
     --hr-color: #333;
   }
 
+  .posts-icon, .subscribe-icon {
+    filter: invert(1);
+  }
+
   table {
     margin-bottom: $spacing-unit;
     width: 100%;
