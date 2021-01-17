@@ -121,6 +121,18 @@ video_gpu_screenshot = "false"
 
 部分 NES 模拟器 Core 支持剪裁掉横向或者竖向的 overscan 内容区域，因为某些游戏比如 [Super Mario Bros. 3](https://www.v2ex.com/gamedb/nes/super-mario-bros-3) 的 overscan 区域会有一些垃圾渲染（这些区域在真实硬件及 CRT 显示上不可见）。如果所有 overscan 内容区域都被保留，那么 NES 游戏的截图分辨率会是 256&times;240，如果都被剪裁，那么会是 240&times;224。
 
+|No Crop|Crop Horizontal|Crop Vertical|Crop Both|
+|---|---|---|---|
+|![](/images/smb3-256x240.png)|![](/images/smb3-240x240.png)|![](/images/smb3-256x224.png)|![](/images/smb3-240x224.png)|
+|256&times;240|240&times;240|256&times;224|240&times;224|
+
+FCEUmm 的默认设置是：
+
+* Crop Horizontal -> Off
+* Crop Vertical -> On
+
+这样出来的截图的分辨率是 256&times;224
+
 你可以在 RetroArch 的 screenshots 目录找到截图的 .png 文件。
 
 ## Recording 视频录制
