@@ -13,19 +13,6 @@
   --hr-color: #ccc;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #dddcdd;
-    --background-color: #1e1c1f;
-    --code-background-color: #373738;
-    --site-title-color: #f0f0f0;
-    --site-header-background-color: #3c3b40;
-    --border-color: #232225;
-    --link-color: #ff9900;
-    --hr-color: #333;
-  }
-}
-
 // Define defaults for each variable.
 
 $base-font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
@@ -77,3 +64,50 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #dddcdd;
+    --background-color: #1e1c1f;
+    --code-background-color: #373738;
+    --site-title-color: #f0f0f0;
+    --site-header-background-color: #3c3b40;
+    --border-color: #232225;
+    --link-color: #ff9900;
+    --hr-color: #333;
+  }
+
+  table {
+    margin-bottom: $spacing-unit;
+    width: 100%;
+    text-align: $table-text-align;
+    color: lighten(#fff, 18%);
+    border-collapse: collapse;
+    border: 1px solid #232225;
+    box-shadow: 0px 5px 20px rgba(90, 90, 90, 0.35);
+    border-radius: 3px;
+    tr {
+      &:nth-child(even) {
+        background-color: darken(#232225, 6%);
+      }
+      :first-child {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+      }
+      :last-child {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+    }
+    th, td {
+      padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    }
+    th {
+      background-color: lighten(#232225, 10%);
+      border: 1px solid #232225;
+    }
+    td {
+      border: 1px solid #232225;
+    }
+  }
+}
