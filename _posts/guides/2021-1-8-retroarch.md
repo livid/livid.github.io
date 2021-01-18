@@ -6,6 +6,8 @@ category: guides
 
 [RetroArch](https://www.retroarch.com) 是一个功能强大的模拟器前端。它的核心是一个叫做 [libretro](https://www.libretro.com) 的开源软件项目，基于 libretro 开发的 RetroArch 提供了一套管理多个不同模拟器系统的界面。这篇文章是关于 RetroArch 的配置和使用，并且会根据 RetroArch 的发展持续更新。
 
+文章中的配图来自 RetroArch 运行在 Windows 下的效果。但是 RetroArch 几乎可以运行在所有主流软硬件平台上。
+
 ## Menu 菜单
 
 RetroArch 提供了多种不同的使用界面方案。其中一个类似 PlayStation 的 XMB 界面方案，非常方便用手柄导航。如果你安装的 RetroArch 没有默认使用这个界面的话，你可以在这个位置打开：
@@ -47,6 +49,12 @@ Import Content -> Manual Scan
 ```
 
 在 Manual Scan 模式下，你需要指定用哪个 Core 来扫描内容。Manual Scan 每次会用一个指定的 Core 扫描指定的一个文件夹，所以可以用这样的方式来一次性为一个平台生成 Playlist。
+
+## ROM
+
+使用类似 <a href="https://www.retrode.org/" target="_blank">Retrode</a> 这样的设备，你可以从卡带中获得游戏内容，也就是 ROM 文件。
+
+互联网上的一群经典游戏的爱好者维护了一个叫做 <a href="https://no-intro.org/" target="_blank">no-intro</a> 的数据库，记录所有完整的 ROM 文件的特征，比如游戏的官方名称、CRC32 校验值、MD5 值等等。
 
 ## Shader 画面特效
 
