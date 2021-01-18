@@ -65,6 +65,10 @@ Import Content -> Manual Scan
 |<img src="https://www.v2ex.com/static/gamedb/32/fc.gif" style="width: 16px; image-rendering: pixelated; vertical-align: text-bottom;" /> &nbsp;NES/Famicom|256&times;224|
 |<img src="https://www.v2ex.com/static/gamedb/32/sfc.gif" style="width: 16px; image-rendering: pixelated; vertical-align: text-bottom;" /> &nbsp;Super NES/Super Famicom|256&times;224|
 |<img src="https://www.v2ex.com/static/gamedb/32/genesis.gif" style="width: 16px; image-rendering: pixelated; vertical-align: text-bottom;" /> &nbsp;Geneis/Mega Drive|320&times;224|
+|<img src="https://www.v2ex.com/static/gamedb/32/gb.gif" style="width: 16px; image-rendering: pixelated; vertical-align: text-bottom;" /> &nbsp;Game Boy|160&times;144|
+|<img src="https://www.v2ex.com/static/gamedb/32/gbc.gif" style="width: 16px; image-rendering: pixelated; vertical-align: text-bottom;" /> &nbsp;Game Boy Color|160&times;144|
+|<img src="https://www.v2ex.com/static/gamedb/32/gba.gif" style="width: 16px; image-rendering: pixelated; vertical-align: text-bottom;" /> &nbsp;Game Boy Advance|240&times;160|
+|<img src="https://www.v2ex.com/static/gamedb/32/vb.gif" style="width: 16px; image-rendering: pixelated; vertical-align: text-bottom;" /> &nbsp;Virtual Boy|384&times;224|
 
 因此，如果要在现代的高分辨率 LCD 屏幕上模拟老旧 CRT 电视机的效果，你可以使用 RetroArch 的 Shader 功能。在运行游戏的过程中呼出快捷菜单，然后在 Shader 菜单中选择一款 CRT Shader（适用于主机平台）或者 Handheld Shader（适用于手持平台）即可。
 
