@@ -82,6 +82,14 @@ Import Content -> Manual Scan
 
 RetroArch 内置了几十款不同的 Shader。
 
+为了让 Shader 获得最好的显示效果，下面的这个设置选项推荐打开：
+
+```
+Settings -> Video -> Scaling -> Integer Scale
+```
+
+这样 RetroArch 在将模拟器输出的视频画面填充当前分辨率时，会确保按照整数倍来进行放大。这样可以避免因为画面被非整数倍放大而带来的一些 Shader 的渲染问题。这些问题当你在使用扫描线类型的 CRT Shader 时会尤其明显。
+
 ## Rewind 回退
 
 以前的很多老游戏的难度非常具有挑战性。比如在 [Konami](https://www.v2ex.com/gamedb/developers/konami/nes) 的经典游戏 [Contra 魂斗罗](https://www.v2ex.com/gamedb/nes/contra) 和 [Life Force 沙罗曼蛇](https://www.v2ex.com/gamedb/nes/life-force-salamander) 里，无论你积攒了多少火力，只要吃一颗子弹就全部重来。并且游戏里只有三条命。
