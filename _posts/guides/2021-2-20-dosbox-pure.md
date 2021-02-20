@@ -30,6 +30,18 @@ Maxis 的 SimCity 2000：
 
 ![](/images/dos-quake.png)
 
+## 性能
+
+在摩尔定律尚还非常有效的 1990 年代，不同的 DOS 游戏对于性能的需求非常不一样。Bullfrog 的 Theme Park 需要 DOSBox 模拟一台 386 电脑，否则就会因为一切动画过快而造成游戏根本没法玩。而 Quake 这样的游戏则需要 DOSBox 尽可能快地运行。
+
+因此，你可能需要在游戏开始运行之后，根据具体的游戏选择需要的性能级别：
+
+![](/images/dos-cycles.png)
+
+目前 DOSBox Pure 还不能支持读取 zip 包中的 dosbox.conf 配置文件。如果将来能够支持的话，那么就可以通过 dosbox.conf 来为不同的游戏提供不同的定制选项了。
+
+## 获取 DOS 游戏
+
 现在是 2021 年了，但是合法地获取 DOS 游戏文件依然是可能的。比如你可以通过以下渠道买到 DOS 游戏：
 
 * [GOG](https://www.gog.com/) - 可以找到大部分在欧美发行过的 DOS 游戏
