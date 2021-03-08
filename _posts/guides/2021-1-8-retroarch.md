@@ -93,15 +93,17 @@ Settings -> Video -> Scaling -> Integer Scale
 
 ## Rewind 回退
 
-以前的很多老游戏的难度非常具有挑战性。比如在 [Konami](https://www.v2ex.com/gamedb/developers/konami/nes) 的经典游戏 [Contra 魂斗罗](https://www.v2ex.com/gamedb/nes/contra) 和 [Life Force 沙罗曼蛇](https://www.v2ex.com/gamedb/nes/life-force-salamander) 里，无论你积攒了多少火力，只要吃一颗子弹就全部重来。并且游戏里只有三条命。
+以前的很多游戏的难度非常具有挑战性。比如在 [Konami](https://www.v2ex.com/gamedb/developers/konami/nes) 的经典游戏 [Contra 魂斗罗](https://www.v2ex.com/gamedb/nes/contra) 和 [Life Force 沙罗曼蛇](https://www.v2ex.com/gamedb/nes/life-force-salamander) 里，无论你积攒了多少火力，只要吃一颗子弹就全部重来。并且游戏里只有三条命。
 
-RetroArch 提供了一种让你可以一命通关的方法——当你在游戏里出现失误的时候，只要按住 <kbd>R</kbd> 就可以回退。直到退回到失误出现之前。借助这种方式，一命通关很多很难的老游戏，或者在彩蛋区域进行反复探索，就只是时间问题了。
+RetroArch 提供了一种让苦手玩家有可能可以一命通关的方法——当在游戏里出现失误的时候，只要按住 <kbd>R</kbd> 就可以回退。直到退回到失误出现之前。借助这种方式，一命通关很多很难的游戏，或者在彩蛋区域进行反复探索，就只是时间问题了。
 
 可以在 Quick Menu 的这个位置设置 Rewind 的速度，默认是 1 帧：
 
 ```
 Quick Menu -> Rewind -> Rewind Frames
 ```
+
+如果你基本上只用 RetroArch 来玩那些不需要手柄 L2 键的游戏，那么可以考虑把 L2 映射为 Rewind 回退功能。
 
 ## Auto Save Load 自动保存和加载
 
