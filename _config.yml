@@ -46,3 +46,12 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+exclude:
+ - .ruby-gemset
+ - .ruby-version
+ - Gemfile
+ - Gemfile.lock
+ - Makefile
+ - README.md
+ - vendor/
