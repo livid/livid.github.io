@@ -5,7 +5,7 @@ category: essays
 tags: V2EX
 ---
 
-2012 年三月末时，启动了一个计划，用一个月的时间，把 [V2EX](https://www.v2ex.com/) 从当时的服务商 Google App Engine 中迁出，因为当时 Google App Engine 的一些疯狂价格调整已经进行了半年。关于这次迁移，可以具体看 [V2EX 2to3]({% post_url 2012-4-25-v2ex-2to3 %}) 这篇文章。
+2012 年三月末时，启动了一个计划，用一个月的时间，把 [V2EX](https://www.v2ex.com/) 从当时的服务商 Google App Engine 中迁出，因为当时 Google App Engine 的一些疯狂价格调整已经进行了半年。关于这次迁移，可以具体看 [V2EX 2to3]({% link _posts/essays/2012-4-25-v2ex-2to3.md %}) 这篇文章。
 
 而现在已经过去一年半，V2EX 依然存在，并且各项数值也都有所发展。而在这一年半的运转过程中，我也得到了很多新的教训。我打算在这里稍微谈谈这些教训，虽然这些教训，或许对于那些已经参与过大型网站项目的人都没什么新鲜的，我只能希望这篇东西能够尽量有用吧。
 
