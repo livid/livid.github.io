@@ -52,6 +52,7 @@ exclude:
  - .ruby-version
  - Gemfile
  - Gemfile.lock
+ - minima.gemspec
  - Makefile
  - README.md
  - vendor/
