@@ -7,6 +7,7 @@
   "home_page_url": "{{ site.url }}",
   "feed_url": "{{ site.url }}/feed.json",
   "favicon": "{{ site.url}}/favicon.png",
+  "icon": "{{ site.url}}/favicon.png",
   {% if site.author %}
   "author": {
     "name": {{ site.author | jsonify }}
