@@ -5,7 +5,8 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {% json_feed_meta %}
+  <link type="application/jso
+n" rel="alternate" href="{{ site.url }}/feed.json" title="{{ site.title | jsonify }}">
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}

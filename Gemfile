@@ -3,5 +3,4 @@
 source "https://rubygems.org"
 gemspec
 
-gem 'jekyll-json-feed'
 gem 'jekyll-relative-links'
