@@ -9,9 +9,11 @@
   "favicon": "{{ site.url}}/favicon.png",
   "icon": "{{ site.url}}/favicon.png",
   {% if site.author %}
-  "author": {
-    "name": {{ site.author | jsonify }}
-  },
+  "authors": [
+    {
+      "name": {{ site.author | jsonify }}
+    }
+  ],
   {% endif %}
   "items": [
 
