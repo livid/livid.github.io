@@ -249,7 +249,7 @@ table {
     }
   }
   th, td {
-    padding: calc($spacing-unit / 3) calc($spacing-unit / 2);
+    padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
     background-color: lighten($grey-color-light, 3%);
@@ -267,9 +267,9 @@ hr {
   color: var(--hr-color);
   height: 1px;
   padding: 0;
-  margin-bottom: calc($spacing-unit / 2);
+  margin-bottom: $spacing-unit / 2;
 }
 
 iframe {
-  margin-bottom: calc($spacing-unit / 2);
+  margin-bottom: $spacing-unit / 2;
 }
