@@ -29,7 +29,6 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe"><img src="/assets/subscribe.png" border="0" width="20" alt="Subscribe" style="vertical-align: text-bottom;" class="subscribe-icon" /> Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe"><img src="{{ "/assets/subscribe.png" | relative_url }}" border="0" width="20" alt="Subscribe" style="vertical-align: text-bottom;" class="subscribe-icon" /> Subscribe via <a href="{{ "/feed.xml" | relative_url }}">RSS</a> or <a href="{{ "/feed.json" | relative_url }}">JSON Feed</a></p>
   {%- endif -%}
-
 </div>
